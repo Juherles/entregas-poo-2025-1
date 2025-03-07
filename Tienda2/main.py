@@ -11,7 +11,7 @@ Requisitos:
 - Implementa validación de entradas
 - Cumple con PEP8
 
-Autor: Juherles Bravo <jjbravor@academia.usbbog.edu.co
+Autor: Juherles Bravo -jjbravor@academia.usbbog.edu.co-
 Fecha: 2025-03-06
 """
 
