@@ -6,7 +6,7 @@ Este archivo verifica que:
 - La función `format_info` devuelve el formato esperado.
 - Se manejan correctamente valores negativos y entradas inválidas.
 
-Autor: Juherles
+Autor: Juherles Bravo
 Fecha: 2025-02-27
 """
 
