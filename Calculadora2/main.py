@@ -25,19 +25,19 @@ def obtener_operando(mensaje):
 def realizar_operacion(operacion, a, b):
     """Realiza la operación matemática seleccionada."""
     if operacion == 1:
-        return a + b
+        return a + b, "suma"
     elif operacion == 2:
-        return a - b
+        return a - b, "resta"
     elif operacion == 3:
-        return a * b
+        return a * b, "multiplicación"
     elif operacion == 4:
-        return a / b if b != 0 else "Error: División por cero"
+        return a / b if b != 0 else "Error: División por cero", "división"
     elif operacion == 5:
-        return a ** b
+        return a ** b, "potenciación"
     elif operacion == 6:
-        return int(a) // int(b) if b != 0 else "Error: División por cero"
+        return int(a) // int(b) if b != 0 else "Error: División por cero", "división entera"
     elif operacion == 7:
-        return int(a) % int(b) if b != 0 else "Error: Módulo por cero"
+        return int(a) % int(b) if b != 0 else "Error: Módulo por cero", "módulo"
 
 def main():
     """Función principal para manejar la calculadora interactiva."""
