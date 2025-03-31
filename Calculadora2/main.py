@@ -35,9 +35,12 @@ def realizar_operacion(operacion, a, b):
     elif operacion == 5:
         return a ** b, "potenciación"
     elif operacion == 6:
-        return int(a) // int(b) if b != 0 else "Error: División por cero", "división entera"
+        return int(
+            a) // int(b) if b != 0 else "Error: División por cero", "división entera"
     elif operacion == 7:
-        return int(a) % int(b) if b != 0 else "Error: Módulo por cero", "módulo"
+        return int(a) % int(
+            b) if b != 0 else "Error: Módulo por cero", "módulo"
+
 
 def main():
     """Función principal para manejar la calculadora interactiva."""
@@ -62,11 +65,13 @@ def main():
             print("> Entrada inválida, ingrese un número del 1 al 8.")
             continue
 
-        a = obtener_operando("> Ingrese el operando A (vacío para cancelar):\n< ")
+        a = obtener_operando(
+            "> Ingrese el operando A (vacío para cancelar):\n< ")
         if a is None:
             continue
 
-        b = obtener_operando("> Ingrese el operando B (vacío para cancelar):\n< ")
+        b = obtener_operando(
+            "> Ingrese el operando B (vacío para cancelar):\n< ")
         if b is None:
             continue
 

@@ -30,18 +30,18 @@ def main():
     """Función principal para manejar la calculadora."""
     print("> Ingrese el operando A:")
     operando_a = float(input("< "))
-    
+
     print("> Ingrese el operando B:")
     operando_b = float(input("< "))
-    
+
     print("> Cual operación se va a realizar?")
     print("> Escriba 1 para suma,")
     print(">         2 para resta,")
     print(">         3 para multiplicación,")
     print(">       y 4 para división.")
-    
+
     opcion = input("< ")
-    
+
     if opcion == "1":
         resultado = suma(operando_a, operando_b)
     elif opcion == "2":
